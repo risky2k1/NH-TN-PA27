@@ -59,6 +59,14 @@ rua_5.forward(200/3)
 rua_5.right(90)
 rua_5.forward(50)
 
+
+def print_e_ra_man_hinh():
+    print('E')
+man_hinh.listen()
+man_hinh.onkey(key='e',fun=print_e_ra_man_hinh)
+
+
+
 man_hinh.exitonclick()
 
 
