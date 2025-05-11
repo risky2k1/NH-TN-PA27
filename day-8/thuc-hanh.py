@@ -15,6 +15,6 @@ entry_password = Entry(master=root)
 entry_password.grid(row=3, column=3)
 
 
-Button(master=root, text='Đăng nhập ABC').grid(row=4, column=2, columnspan=2)
+Button(master=root, text='Đăng nhập').grid(row=4, column=2, columnspan=2)
 
 root.mainloop()
